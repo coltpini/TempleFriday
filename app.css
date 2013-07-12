@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #69f;
+    min-height: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 30em) {
+    body{
+        background: #0f0;
+    }
+    section {
+        display: block;
+    }
+}
+
+
